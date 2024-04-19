@@ -305,6 +305,43 @@
                 does not seem to affect the prices of a majority of the properties.
             </p>
         </div>
+
+        <div class='text'>
+            <h3>
+                Interactive Map of Amsterdam Showing Correlation of Price and Bedroom Quantity
+            </h3>
+
+            <iframe src="price_vs_num_beds.html" width="700" height="400"></iframe>
+            <p>This visualization demonstrates the relationship between price, in Euros, and number of 
+                bedrooms in a given AirBnb. The legend shows whether the listing was for
+                a weekday or weekend and is colored accordingly. Surprisingly, we see that 
+                day of week doesn't have an overall impact on pricing, which varied from our initial 
+                hypothesis that weekend rentals would be significantly higher than those of weekdays. 
+                Properties with bedrooms on either side of the extreme (0 or 5 bedrooms) see lower
+                prices, while those with 3 bedrooms see the highest price points, with two outliers as 
+                well. A majority of the prices fall below €3,000, with only a few listings 
+                falling above that range. The highest concentration of bedrooms are with 1, 2, and 3
+                bedrooms, which makes sense given that most people are traveling with another person or two 
+                or staying alone for an extended period of time.
+         </p>
+            <p>To interact with this visualization, you can hover over a given data point 
+                to get more information about the listing. You can see how far, in number 
+                of miles, the listing is from the city center as well as the price and number of 
+                bedrooms.
+            </p>
+        </div>
+
+        <div class="text">
+            <h3>Summary</h3>
+            <ul>
+                <li>As expected, prices are higher the closer travelers get to the city center</li>
+                <li>Surprisingly, prices and day of week don't have a high correlation</li>
+                <li>Restaurants and location are correlated, with more and higher quality eateries being closest to the city</li>
+                <li>Capacity and # of bedrooms were tied to price (0.53, 0.50) respectively</li>
+                <li>The largest price discrepancy for a room type was between private rooms on weekends and weekdays</li>
+                <li>Future considerations: how superhost status affects guest satisfaction / price, correlation between price and guest satisfaction</li>
+            </ul>
+        </div>
     </div>
 <body>
     
